@@ -1,0 +1,434 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: var(--main-bg-page, #fbf8ec);
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 10;
+  background: var(--surface, #fff);
+
+  /* Default/S */
+  box-shadow: 2px 4px 8px 0px rgba(0, 0, 0, 0.1);
+}
+nav {
+  position: relative;
+  top: 17px;
+  left: 40px;
+}
+.smile {
+  display: flex;
+  gap: 9px;
+}
+.s1 {
+  position: relative;
+  top: 11px;
+  left: 3px;
+}
+.b1 {
+  display: flex;
+  width: 140px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  background: var(--main-secondary, #70c05b);
+  color: var(--main-on-secondary, #fff);
+  text-align: center;
+
+  /* Desc/Text/S */
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  border: 1px solid #70c05b;
+}
+.b1:hover {
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  transition: 0.7s;
+  cursor: pointer;
+}
+.in1 {
+  display: flex;
+  width: 360px;
+  height: 40px;
+  padding: 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  flex: 1 0 0;
+  position: relative;
+  left: 30px;
+}
+.bigNav {
+  display: flex;
+  position: relative;
+  left: 240px;
+  top: -30px;
+}
+.icons {
+  display: flex;
+  gap: 35px;
+  position: relative;
+  left: 70px;
+}
+.s2 {
+  position: relative;
+  left: 25px;
+}
+.s3 {
+  position: relative;
+  left: 18px;
+}
+.alek {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  position: relative;
+  left: 40px;
+}
+input {
+  outline: none;
+}
+////////////////////////////////// MAIN ///////////
+.vm {
+  display: flex;
+  gap: 16px;
+}
+.pp1 {
+  color: var(--grayscale-hard, #8f8f8f);
+  text-decoration: none;
+  /* Desc/Text/XS */
+  font-family: Rubik;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 18px */
+  position: relative;
+  top: 3px;
+}
+.pp1:hover {
+  color: var(--main-on-surface, #414141);
+  transition: 0.7s;
+  /* Desc/Text/XS */
+  font-family: Rubik;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 18px */
+}
+
+main {
+  position: relative;
+  top: 100px;
+  margin-left: 90px;
+}
+.hh1 {
+  color: var(--main-on-surface, #414141);
+
+  /* Desc/Header/XL */
+  font-family: Rubik;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 96px */
+  align-self: stretch;
+  margin-top: 27px;
+}
+.secc {
+  margin-left: 70px;
+}
+.images {
+  margin-top: 60px;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.moloko {
+  background: url(../../assets/images/Ibrohim/GRID1.png);
+  background-size: cover;
+  width: 584px;
+  height: 200px;
+  flex-shrink: 0;
+  padding-top: 160px;
+  padding-left: 15px;
+  color: var(--main-on-secondary, #fff);
+
+  /* Desc/Text-Bold/M */
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 27px */
+}
+.xleb {
+  background: url(../../assets/images/Ibrohim/GRID2.png);
+  background-size: cover;
+  width: 272px;
+  height: 200px;
+  flex-shrink: 0;
+  padding-top: 160px;
+  padding-left: 15px;
+  color: var(--main-on-secondary, #fff);
+
+  /* Desc/Text-Bold/M */
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 27px */
+}
+.fruk {
+  background: url(../../assets/images/Ibrohim/GRID3.png);
+  background-size: cover;
+  width: 272px;
+  height: 200px;
+  flex-shrink: 0;
+  padding-top: 160px;
+  padding-left: 15px;
+  color: var(--main-on-secondary, #fff);
+
+  /* Desc/Text-Bold/M */
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 27px */
+}
+.produkt {
+  background: url(../../assets/images/Ibrohim/GRID4.png);
+  background-size: cover;
+  width: 272px;
+  height: 200px;
+  flex-shrink: 0;
+  padding-top: 160px;
+  padding-left: 15px;
+  color: var(--main-on-secondary, #fff);
+  /* Desc/Text-Bold/M */
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 27px */
+}
+.napitki {
+  background: url(../../assets/images/Ibrohim/GRID5.png);
+  background-size: cover;
+  width: 272px;
+  height: 200px;
+  flex-shrink: 0;
+  padding-top: 160px;
+  padding-left: 15px;
+  color: var(--main-on-secondary, #fff);
+  /* Desc/Text-Bold/M */
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 27px */
+}
+.izdeliya {
+  background: url(../../assets/images/Ibrohim/GRID6.png);
+  background-size: cover;
+  width: 272px;
+  height: 200px;
+  flex-shrink: 0;
+  padding-top: 160px;
+  padding-left: 15px;
+  color: var(--main-on-secondary, #fff);
+  /* Desc/Text-Bold/M */
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 27px */
+}
+.kofe {
+  background: url(../../assets/images/Ibrohim/GRID7.png);
+  background-size: cover;
+  width: 272px;
+  height: 200px;
+  flex-shrink: 0;
+  padding-top: 160px;
+  padding-left: 15px;
+  color: var(--main-on-secondary, #fff);
+  /* Desc/Text-Bold/M */
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 27px */
+}
+.bak {
+  background: url(../../assets/images/Ibrohim/GRID8.png);
+  background-size: cover;
+  width: 272px;
+  height: 200px;
+  flex-shrink: 0;
+  padding-top: 160px;
+  padding-left: 15px;
+  color: var(--main-on-secondary, #fff);
+  /* Desc/Text-Bold/M */
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 27px */
+}
+.pitan {
+  background: url(../../assets/images/Ibrohim/GRID9.png);
+  background-size: cover;
+  width: 272px;
+  height: 200px;
+  flex-shrink: 0;
+  padding-top: 160px;
+  padding-left: 15px;
+  color: var(--main-on-secondary, #fff);
+  /* Desc/Text-Bold/M */
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 27px */
+}
+.zoo {
+  background: url(../../assets/images/Ibrohim/GRID10.png);
+  background-size: cover;
+  width: 584px;
+  height: 200px;
+  flex-shrink: 0;
+  padding-top: 160px;
+  padding-left: 15px;
+  color: var(--main-on-secondary, #fff);
+
+  /* Desc/Text-Bold/M */
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 27px */
+}
+.dets {
+  background: url(../../assets/images/Ibrohim/GRID11.png);
+  background-size: cover;
+  width: 272px;
+  height: 200px;
+  flex-shrink: 0;
+  padding-top: 160px;
+  padding-left: 15px;
+  color: var(--main-on-secondary, #fff);
+  /* Desc/Text-Bold/M */
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 27px */
+}
+.meat {
+  background: url(../../assets/images/Ibrohim/GRID12.png);
+  background-size: cover;
+  width: 584px;
+  height: 200px;
+  flex-shrink: 0;
+  padding-top: 160px;
+  padding-left: 15px;
+  color: var(--main-on-secondary, #fff);
+
+  /* Desc/Text-Bold/M */
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 27px */
+}
+.tovar {
+  background: url(../../assets/images/Ibrohim/GRID13.png);
+  background-size: cover;
+  width: 272px;
+  height: 200px;
+  flex-shrink: 0;
+  padding-top: 160px;
+  padding-left: 15px;
+  color: var(--main-on-secondary, #fff);
+  /* Desc/Text-Bold/M */
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 27px */
+}
+
+///////////////////// footer //////////
+footer {
+  position: relative;
+  top: 180px;
+  height: 136px;
+  background: var(--main-bg-page, #f8f3df);
+}
+.foot {
+  position: relative;
+  left: 100px;
+  top: 40px;
+}
+.s4 {
+  position: relative;
+  left: -50px;
+  top: 30px;
+}
+.end {
+  display: flex;
+  gap: 40px;
+  position: relative;
+  margin-left: 100px;
+  top: -12px;
+}
+.p4 {
+  color: var(--main-on-surface, #414141);
+}
+.end2 {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  top: -30px;
+  margin-left: 900px;
+  //   left: 900px;
+}
+.e3 {
+  display: flex;
+  gap: 8px;
+  position: relative;
+  top: -53px;
+  //   left: 1110px;
+  margin-left: 1110px;
+}
+.e4 {
+  display: flex;
+  gap: 8px;
+  position: relative;
+  //   left: 1110px;
+  margin-left: 1100px;
+  top: -30px;
+}
+.p7 {
+  position: relative;
+  top: -4px;
+}

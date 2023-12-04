@@ -28,6 +28,19 @@ nav {
   top: 17px;
   left: 40px;
 }
+.aa {
+  text-decoration: none;
+  position: relative;
+  color: var(--main-on-surface, #414141);
+
+  font-family: Rubik;
+  cursor: pointer;
+}
+.aa:hover {
+  color: #a4a2a2;
+  transition: 0.7s;
+}
+
 .smile {
   display: flex;
   gap: 9px;
@@ -491,7 +504,7 @@ main {
 .b3:hover {
   border-radius: 4px;
   border: 1px solid var(--main-secondary, #70c05b);
-  background-color: #dbd8d8;
+  background-color: #bd0000;
   color: #70c05b;
   transition: 0.7s;
   cursor: pointer;
@@ -506,12 +519,7 @@ main {
   color: #70c05b;
   transition: 0.7s;
 }
-.butt1:hover {
-  background: var(--grayscale-lightest, #f3f2f1);
-  transition: 0.7s;
-  color: black;
-  cursor: pointer;
-}
+
 .butt2:hover {
   background: var(--grayscale-lightest, #70c05b);
   transition: 0.7s;
