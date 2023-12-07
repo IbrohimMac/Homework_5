@@ -770,9 +770,10 @@ footer {
 
 #btn-close {
   position: relative;
-  left: 190px;
-  top: 5px;
+  left: 198px;
+  border-radius: 4px;
   cursor: pointer;
+  border: none;
 }
 
 .modal-content {
